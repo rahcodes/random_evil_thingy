@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 480px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBtn {
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #e53935;
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.mainBtn:active {
+    background-color: #e53835b2;
+}
+
+.hidden {
+    display: none;
+}
+
+.birdImg {
+    width: 450px;
+}
+
+.intro-text {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
